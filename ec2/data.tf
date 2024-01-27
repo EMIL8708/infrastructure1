@@ -1,5 +1,5 @@
 # Pulls VPC information
-data "terraform_remote_state" "this" {
+data "terraform_remote_state" "vpc" {
   backend = "remote"
 
   config = {
